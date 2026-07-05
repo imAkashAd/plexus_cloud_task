@@ -29,7 +29,7 @@ lib/
 
 1. **Authentication Flows**
    * **Login View**: Implements Username/Password login targeting the Fake Store auth API. (Tip: Use standard username `mor_2314` and password `83r5^_` to login using the live API).
-   * **SignUp & OTP Views**: Beautiful inputs validation flows.
+   * **SignUp & OTP Views**: inputs validation flows.
 2. **Products Catalog & Details**
    * **Interactive Dashboard**: Features a responsive grid card layout (adjusts to 2 columns on mobile and 3 columns on tablet screens).
    * **Search & Sort**: Filters catalog dynamically by query text. Sorts by **Price: Low to High**, **Price: High to Low**, and **Highest Rating**.
@@ -78,3 +78,46 @@ flutter test
 * **Mock Signup/OTP APIs**: Since the Fake Store API does not support signups or physical SMS OTP dispatch, these layouts validate inputs locally and simulate success before routing.
 * **Inter Font**: The Inter font is loaded dynamically at runtime via the `google_fonts` package. 
 * **Generic Error Handling**: Database and API network errors are wrapped inside clean generic `try-catch` blocks at the caller/controller layer, capturing raw exceptions and formatting them for the UI.
+
+
+---
+
+# 📸 Screenshots
+
+### Authentication
+
+| Login | Sign Up |
+|-------|---------|
+| ![](screenshots/loginpage.png) | ![](screenshots/signuppage.png) |
+
+### Home
+
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![](screenshots/homepage.png) | ![](screenshots/darkhomepage.png) |
+
+### Product Details
+
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![](screenshots/detailpage.png) | ![](screenshots/darkdetailpage.png) |
+
+### Favorites
+
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![](screenshots/favouritepage.png) | ![](screenshots/darkloginpage.png) |
+
+### Filter
+
+| Filter Bottom Sheet |
+|---------------------|
+| ![](screenshots/filter.png) |
+
+### Logout
+
+| Logout Dialog |
+|---------------|
+| ![](screenshots/logout.png) |
+
+---
