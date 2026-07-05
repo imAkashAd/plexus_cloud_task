@@ -78,3 +78,46 @@ flutter test
 * **Mock Signup/OTP APIs**: Since the Fake Store API does not support signups or physical SMS OTP dispatch, these layouts validate inputs locally and simulate success before routing.
 * **Inter Font**: The Inter font is loaded dynamically at runtime via the `google_fonts` package. 
 * **Generic Error Handling**: Database and API network errors are wrapped inside clean generic `try-catch` blocks at the caller/controller layer, capturing raw exceptions and formatting them for the UI.
+
+
+---
+
+# 📸 Screenshots
+
+### Authentication
+
+| Login | Sign Up |
+|-------|---------|
+| ![](screenshots/loginpage.png) | ![](screenshots/signuppage.png) |
+
+### Home
+
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![](screenshots/homepage.png) | ![](screenshots/darkhomepage.png) |
+
+### Product Details
+
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![](screenshots/detailpage.png) | ![](screenshots/darkdetailpage.png) |
+
+### Favorites
+
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![](screenshots/favouritepage.png) | ![](screenshots/darkloginpage.png) |
+
+### Filter
+
+| Filter Bottom Sheet |
+|---------------------|
+| ![](screenshots/filter.png) |
+
+### Logout
+
+| Logout Dialog |
+|---------------|
+| ![](screenshots/logout.png) |
+
+---
