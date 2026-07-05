@@ -84,40 +84,49 @@ flutter test
 
 # 📸 Screenshots
 
-### Authentication
+## Authentication
 
-| Login | Sign Up |
-|-------|---------|
-| ![](screenshots/loginpage.png) | ![](screenshots/signuppage.png) |
+| Login | Sign Up | Dark Login |
+|-------|---------|---------|
+| <img src="assets/screenshots/loginpage.png" width="220"> | <img src="assets/screenshots/signuppage.png" width="220"> | <img src="assets/screenshots/darkloginpage.png" width="220"> |
 
-### Home
 
-| Light Mode | Dark Mode |
-|------------|-----------|
-| ![](screenshots/homepage.png) | ![](screenshots/darkhomepage.png) |
-
-### Product Details
+## Home
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![](screenshots/detailpage.png) | ![](screenshots/darkdetailpage.png) |
+| <img src="assets/screenshots/homepage.png" width="220"> | <img src="assets/screenshots/darkhomepage.png" width="220"> |
 
-### Favorites
+---
+
+## Product Details
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![](screenshots/favouritepage.png) | ![](screenshots/darkloginpage.png) |
+| <img src="assets/screenshots/detailpage.png" width="220"> | <img src="assets/screenshots/darkdetailpage.png" width="220"> |
 
-### Filter
+---
+
+## Favorites
+
+| Favorites |
+|-----------|
+| <img src="assets/screenshots/favouritepage.png" width="220"> |
+
+---
+
+## Filter
 
 | Filter Bottom Sheet |
 |---------------------|
-| ![](screenshots/filter.png) |
+| <img src="assets/screenshots/filter.png" width="220"> |
 
-### Logout
+---
+
+## Logout
 
 | Logout Dialog |
 |---------------|
-| ![](screenshots/logout.png) |
+| <img src="assets/screenshots/logout.png" width="220"> |
 
 ---
