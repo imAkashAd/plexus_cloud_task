@@ -29,7 +29,7 @@ lib/
 
 1. **Authentication Flows**
    * **Login View**: Implements Username/Password login targeting the Fake Store auth API. (Tip: Use standard username `mor_2314` and password `83r5^_` to login using the live API).
-   * **SignUp & OTP Views**: Beautiful inputs validation flows.
+   * **SignUp & OTP Views**: inputs validation flows.
 2. **Products Catalog & Details**
    * **Interactive Dashboard**: Features a responsive grid card layout (adjusts to 2 columns on mobile and 3 columns on tablet screens).
    * **Search & Sort**: Filters catalog dynamically by query text. Sorts by **Price: Low to High**, **Price: High to Low**, and **Highest Rating**.
